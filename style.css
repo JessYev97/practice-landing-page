@@ -7,12 +7,17 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    background-color: #1F2937;
 }
 
 .Top-container{
     display: flex;
+     background-color: #1F2937; 
+     font-family: hero; 
 }
-
+.beauty{
+    border: none;
+}
 .second-container{
     display: flex;
 }
@@ -31,17 +36,45 @@ img{
 }
 .third-container{
     display: flex;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.author{
+    display: flex;
+    font-weight: bold;
+}
+.bottom-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.bottom-container{
+.child{
 display: flex;
+background-color: #3882F6;
+padding: 20px;
+width: 300px;
+height: 40px;
 }
 
 .end{
     display: flex;
+    background-color: #1F2937;
 }
 
 .body{
     display: flex;
-    flex-direction: column;
+    
+}
+
+button{
+    
+    background-color: #3882F6;
+}
+
+img{
+    border: #3882F6 solid 3px;
+    border-radius: 4px;
 }
