@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Top-container{
+    display: flex;
+}
+
+.second-container{
+    display: flex;
+}
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 120px;
+}
+.third-container{
+    display: flex;
+}
+
+.bottom-container{
+display: flex;
+}
+
+.end{
+    display: flex;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
