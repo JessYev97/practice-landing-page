@@ -1,19 +1,22 @@
 *{
+
     margin: 0;
     padding: 0;
 }
 .header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: flex-end;
+    align-items: center;
     background-color: #1F2937;
+    color: white;
 }
 
 .Top-container{
     display: flex;
      background-color: #1F2937; 
      font-family: hero; 
+     color: white;
 }
 .beauty{
     border: none;
@@ -24,7 +27,7 @@
 
 .photos{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 
 }
 
@@ -55,8 +58,12 @@ img{
 display: flex;
 background-color: #3882F6;
 padding: 20px;
-width: 300px;
+width: 350px;
 height: 40px;
+margin-right: 150px;
+margin-left: 150px;
+margin-top: 65px;
+margin-bottom: 65px;
 }
 
 .end{
@@ -68,13 +75,27 @@ height: 40px;
     display: flex;
     
 }
+.all{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
 
 button{
-    
+    display: flex;
     background-color: #3882F6;
+    width: 80px;
+    height: 25px;
+    flex-wrap: nowrap;
+    color: white;
 }
 
 img{
     border: #3882F6 solid 3px;
     border-radius: 4px;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
