@@ -74,9 +74,11 @@ flex: 1 1 20px;
 
 }
 
+
 .end{
     display: flex;
     background-color: #1F2937;
+    color: white;
 }
 
 .body{
