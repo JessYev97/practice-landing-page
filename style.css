@@ -65,6 +65,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .child{
@@ -98,20 +99,23 @@ flex: 1 1 20px;
     width: 60%;
     justify-content: center;
     margin: 0 20% 0 20%;
-    
-    
 
 }
 
+.blue{
+    border: #E5E7EB solid 1px;
+}
 button{
     display: flex;
     background-color: #3882F6;
-    width: 80px;
-    height: 25px;
+    width: 75px;
+    height: 22px;
     flex-wrap: nowrap;
     color: white;
     justify-content: center;
     align-items: center;
+    border-radius: 6px;
+    border: none;
 }
 
 img{
