@@ -24,14 +24,15 @@
 }
 .top-h{
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    font-size: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 122px;
+    font-size: 18px;
 }
 .top-txt{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
     width: 50%;
 }
@@ -65,6 +66,19 @@ img{
     height: 95px;
     width: 65px;
 }
+.img-one{display: flex;
+flex-direction: column;
+width: 20%;}
+.img-two{display: flex;
+flex-direction: column;
+width: 20%;}
+.img-three{display: flex;
+flex-direction: column;
+width: 20%;}
+.img-four{display: flex;
+flex-direction: column;
+width: 20%;}
+
 .quote{
     display: flex;
     flex-direction: column;
@@ -124,16 +138,16 @@ padding: 20px;
     font-size: small;
 }
 
-.body{
+html, body{
     display: flex;
     
 }
 .all{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     justify-content: center;
     margin: 0 25% 0 25%;
+    
 
 }
 
