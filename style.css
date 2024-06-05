@@ -16,9 +16,24 @@
 }
 .Top-container{
     display: flex;
-    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
      background-color: #1F2937; 
      color: white;
+     padding: 4%;
+}
+.top-h{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+}
+.top-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
 }
 .beauty{
     display: flex;
@@ -29,7 +44,7 @@
 }
 .second-container{
     display: flex;
-    padding: 20px;
+    padding: 10px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -60,7 +75,7 @@ img{
     font-style: italic;
     font-weight: 100;
     color: #1F2937;
-    padding: 6%;
+    padding: 5%;
 }
 .quote-txt{
     display: flex;
@@ -79,7 +94,7 @@ img{
     justify-content: center;
     align-items: center;
     color: white;
-    margin: 4%;
+    margin: 5%;
     flex-wrap: wrap;
 }
 
@@ -118,7 +133,7 @@ padding: 20px;
     flex-direction: column;
     min-height: 100vh;
     justify-content: center;
-    margin: 0 20% 0 20%;
+    margin: 0 25% 0 25%;
 
 }
 
