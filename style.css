@@ -1,5 +1,4 @@
 *{
-
     margin: 0;
     padding: 0;
 }
@@ -15,8 +14,6 @@
     font-size: 10px;
     padding-right: 4%;
     padding-left: 4%;
-    
-    
 }
 .logo{
     margin-right: auto;
@@ -51,7 +48,6 @@
     align-self: center;
     border: none;
     width: 165px;
-
 }
 .second-container{
     display: flex;
@@ -62,13 +58,13 @@
     flex-wrap: wrap;
 }
 
-
 .photos{
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: nowrap;
     padding: 4%;
+    gap: 10px;
 
 }
 
@@ -79,16 +75,16 @@ img{
 }
 .img-one{display: flex;
 flex-direction: column;
-width: 20%;}
+width: 25%;}
 .img-two{display: flex;
 flex-direction: column;
-width: 20%;}
+width: 25%;}
 .img-three{display: flex;
 flex-direction: column;
-width: 20%;}
+width: 25%;}
 .img-four{display: flex;
 flex-direction: column;
-width: 20%;}
+width: 25%;}
 
 .quote{
     display: flex;
@@ -148,7 +144,6 @@ padding: 20px;
     align-items: center;
 }
 
-
 .end{
     display: flex;
     background-color: #1F2937;
@@ -192,7 +187,6 @@ button{
     border-radius: 6px;
     border: none;
 }
-
 img{
     border: #3882F6 solid 3px;
     border-radius: 4px;
