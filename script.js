@@ -10,5 +10,5 @@ function alertFunction() {
 const chooseJoy = document.getElementById("joy").addEventListener("click", joyFull);
 
 function joyFull() {
-  alert("Joy is a choice and you deserve to choose it for your life"); 
+  alert("choosing joy is a concept that Marie values and exemplifies in her life"); 
 }
