@@ -42,7 +42,7 @@
     flex-wrap: wrap;
     width: 50%;
 }
-.beauty{
+.family{
     display: flex;
     justify-content: center;
     align-self: center;
@@ -50,7 +50,7 @@
     width: 165px;
     padding-left: 115px;
 }
-.second-container{
+.photos-container{
     display: flex;
     padding: 10px;
     flex-direction: row;
@@ -168,7 +168,7 @@ html, body{
 
 }
 
-.blue{
+.blueButton{
     border: #E5E7EB solid 1px;
 }
 .bb-box{
